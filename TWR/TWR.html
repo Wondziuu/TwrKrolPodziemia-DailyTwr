@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>DailyTWR.pl</title>
+    <script>
+        function randomquoteTWR(){
+            var QuotesTWR = [
+            "Z bitu wyciskam ostatnie soki, twój chujowy jak freestyle Eldo-ki ~TWR-GUMMO REMIX",
+            "Nie ważna wielkość młota, ale jak się nim miota ~TWR-GUMMO REMIX",
+            "Nie chcesz być moim wrogiem, nie wchodź mi w drogę, bo zrobię z ciebie kogel-mogel ~TWR-GUMMO REMIX",
+            "Powiedz mi dziewczyno, czy bez, czy z gumą, czy bez, czy z dumą ~TWR-GUMMO REMIX",
+            "Potem, numer wykonuję do Eripe, mówię mu - Jesteś chujem, a masz cipę ~TWR-diss na całą polską rap scene",
+            "Potem dzwonię do Quebonafide, i mówię mu że jest raperem za dychę- a on cieszy michę ~TWR-diss na całą polską rap scene",
+            "Napierdalam leszczy młotkiem, mów mi Mc Hammer ~TWR-Mc Hammer",
+            "Ty leszczu w rapie jesteś zwykły lamer, zajebię ci młotkiem w głowę, tylko sprawdzę czy nie ma w pobliżu kamer ~TWR-Mc Hammer",
+            "Tak ich napierdoliłem młotkiem, że chwilowo stracili pamięć ~TWR-Mc Hammer",
+            "Lescze mają u mnie przejebane na amen ~TWR-Mc Hammer",
+            "Na tej Polskiej scenie, jezu jakie pizdy słodkie, rozjebałbym im pizdy młotkiem ~TWR-Mc Hammer",
+            "Jak cię spotkam na ulicy to ci rozpierdolę głowę młotkiem ~TWR-Mc Hammer",
+            "Nawijka taka gorąca, że oblewasz się wrzątkiem, takich jak ty, leszczy napierdalam młotkiem ~TWR-Mc Hammer",
+            ]
+            var randomQuote = 
+            QuotesTWR[Math.floor(Math.random()*QuotesTWR.length)];
+            alert(randomQuote);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="randomquoteTWR()">Wylosuj cytat, TWR-a Króla Podziemia!</button>
+    <div id="logo">
+        <img src="logo.png" id="minitwr">
+    </div>
+</body>
+</html>
